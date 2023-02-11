@@ -63,6 +63,7 @@
   font-size: 20px;
   line-height: 30px;
   margin-top: 32px;
+  margin-bottom: 0;
 }
 
 .header__image {
@@ -196,35 +197,30 @@
 
 .person_name_feynman {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  position: absolute;
   top: -30px;
   left: 319px;
 }
 
 .person_name_burbidge {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  position: absolute;
   top: 96px;
   right: 125px;
 }
 
 .person_name_cannon {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  position: absolute;
   right: 216px;
   bottom: 18px;
 }
 
 .person_name_mitchell {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  position: absolute;
   left: 142px;
   bottom: 82px;
 }
 
 .person_name_tarter {
   /* Use correct values of top/right/bottom/left properties to position the element */
-  position: absolute;
   top: 79px;
   left: 159px;
 }
@@ -411,6 +407,10 @@
   margin-bottom: 32px;
 }
 
+.about__paragraph:last-of-type {
+  margin-bottom: 0;
+}
+
 .about__circle {
   background-color: #2f80ed;
   width: 495px;
@@ -463,7 +463,7 @@
   margin-bottom: 16px;
 }
 
-.footer__list-item :last-of-type {
+.footer__list-item:last-of-type {
   margin-bottom: 0;
 }
 
